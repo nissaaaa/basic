@@ -1,0 +1,52 @@
+.container {
+  margin-left : 70px;
+  margin-right : 70px;
+	
+}
+
+.column {
+  height: 400px;
+  width: 300px;
+  border: 1px solid #E2E2E2;
+  margin-right:25px;
+  display : inline-table;
+  
+}
+.image {
+  height: 205px;
+  width : 300px;
+  padding-bottom:30px;
+	
+}
+.product_name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 25px;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 15px;
+  padding-left: 25px;
+  padding-top:10px;
+  padding-bottom:10px;
+  width:180px;
+
+}
+
+.product_price {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 25px;
+  padding-right:130px;
+  padding-bottom:30px;
+}
+
+.cart {
+  border-radius: 8px;
+  background: #4ED17B;
+  padding: 15px 12px 5px 9px; 
+}
+
