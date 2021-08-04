@@ -7,26 +7,26 @@
 		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto' >
 		<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 	</head>
-<body>
-	<div class="container">
-		<div id="row" class="row">
+	<body>
+		<div class="container">
+			<div id="row" class="row">
+			</div>
 		</div>
-	</div>
-	<script>
-		let product = "";
-		let jum_product = 5;
-		
-		for (let i=0; i<jum_product; i++) {
-			product += "<div class='column'>"
-			product	+= "<img class='image' src='boots.png'>"
-			product	+= "<div class='product_name'> Women's boots </div>"
-			product	+= "<div class='description'> Fashionable boots made of real fur. Keep you warm in cold weather. </div>"
-			product	+= "<span class='product_price'> 300 $ </span>"
-			product	+= "<span class='cart'> <i class='fas fa-shopping-cart'></i></span>"
-			product += "</div>"
-		}
-		
-		document.getElementById("row").innerHTML = product;
-	</script>
-<body>
+		<script>
+			let product = "";
+			let jum_product = 5;
+
+			for (let i=0; i<jum_product; i++) {
+				product += "<div class='column'>"
+				product	+= "<img class='image' src='boots.png'>"
+				product	+= "<div class='product_name'> Women's boots </div>"
+				product	+= "<div class='description'> Fashionable boots made of real fur. Keep you warm in cold weather. </div>"
+				product	+= "<span class='product_price'> 300 $ </span>"
+				product	+= "<span class='cart'> <i class='fas fa-shopping-cart'></i></span>"
+				product += "</div>"
+			}
+
+			document.getElementById("row").innerHTML = product;
+		</script>
+	<body>
 </html>
