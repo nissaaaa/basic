@@ -1,7 +1,6 @@
 .container {
   margin-left : 70px;
   margin-right : 70px;
-	
 }
 
 .column {
@@ -9,6 +8,7 @@
   width: 300px;
   border: 1px solid #E2E2E2;
   margin-right:25px;
+  margin-top:25px;
   display : inline-table;
   
 }
@@ -48,5 +48,7 @@
   border-radius: 8px;
   background: #4ED17B;
   padding: 15px 12px 5px 9px; 
+  font-size:30px;
+  color:white;
 }
 
